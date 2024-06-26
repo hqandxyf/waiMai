@@ -24,4 +24,8 @@ public class GlobalExceptionHandler {
         return Result.error(ex.getMessage());
     }
 
+    //sql异常
+    /*
+    * 动态获取名字提示-名字重复--规范提示信息
+    * */
 }
